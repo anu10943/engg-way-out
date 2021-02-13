@@ -1,0 +1,9 @@
+Thi=40;
+Tho=80;
+Tci=20;
+Tco=50;
+dt1=Thi-Tci
+dt2=Tho-Tco
+lmtd = (dt1-dt2)/log(dt1/dt2)
+R = (Thi-Tho)/(Tco-Tci)
+P = (Tco-Tci)/(Thi-Tci)
